@@ -3,7 +3,7 @@
 ## Introduction
 **This repo contains the source code for the Denaro Vanity Generator, a vanity address generator developed for the Denaro cryptocurrency. It features a highly efficient algorithm capable of producing tens of thousands of Denaro addresses per second. Actual performance will depend on your hardware capabilities.**
 
-The original generator algorithm derives from a set of Python scripts posted on the Bitcointalk forum. This algorithm was designed to rapidly generate up to 16 million Bitcoin addresses in under 30 seconds due to its use of secp256k1 elliptic curve endomorphisms. Since Denaro requires the P256 (secp256r1) elliptic curve to generate valid public keys for address derivation, the implementation has been modified to use P256 accordingly.
+The original generator algorithm comes from a set of Python scripts posted on the Bitcointalk forum. This algorithm was designed to rapidly generate up to 16 million Bitcoin addresses in under 30 seconds due to its use of endomorphisms with the secp256k1 elliptic curve. Since Denaro requires the P256 (secp256r1) elliptic curve to generate valid public keys for address derivation, the implementation has been modified to use P256 accordingly.
 
 The P256 curve unfortunately does not support endomorphisms, which the original algorithm uses. As a result, the modified generator cannot achieve the same high throughput, significantly reducing its ability to produce millions of keys quickly. Regardless of this limitation, the use of P256 still ensures strong security standards and offers the potential for integrating alternative optimizations in future updates to this project.
 
