@@ -17,7 +17,7 @@ The P256 curve unfortunately does not support endomorphisms, which the original 
 
 
 
-## Installation Guide
+## Installation
 *Note: The Denaro Vanity Generator has not been tested on Windows or MacOS and support is unknown at this time. It is reccomended to run it on Ubuntu/Debian Linux to avoid any compatibility or stability issues.*
 
 ```bash
