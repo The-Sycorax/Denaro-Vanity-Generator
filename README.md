@@ -35,7 +35,7 @@ python3 vanity_gen.py <options>
 ## Usage
 ### Syntax:
 ```bash
-vanity_gen_v2.py [-h] [-prefix PREFIX] [-private_key PRIVATE_KEY] [-silent]
+vanity_gen.py [-h] [-prefix PREFIX] [-private_key PRIVATE_KEY] [-silent]
 ```
     
 - **Options**:        
@@ -46,7 +46,7 @@ vanity_gen_v2.py [-h] [-prefix PREFIX] [-private_key PRIVATE_KEY] [-silent]
 
 ### **Example**:
 ```bash
-python3 vanity_gen_v2.py -prefix=Denaro
+python3 vanity_gen.py -prefix=Denaro
 ```
 
 ------------
