@@ -7,7 +7,7 @@ The original generator algorithm derives from a set of Python scripts posted on 
 
 The P256 curve unfortunately does not support endomorphisms, which the original algorithm uses. As a result, the modified generator cannot achieve the same high throughput, significantly reducing its ability to produce millions of keys quickly. Regardless of this limitation, the use of P256 still ensures strong security standards and offers the potential for integrating alternative optimizations in future updates to this project.
 
-* **Original source: https://bitcointalk.org/index.php?topic=5432068.msg61518916#msg61518916** 
+* **Original source: https://bitcointalk.org/index.php?topic=5432068.msg61517943#msg61517943** 
 
 * **Other links:**
 
