@@ -32,11 +32,6 @@ pip3 install humanfriendly
 python3 vanity_gen.py <options>
 ```
 
-To exit the Python Virtual Environment use:
-```bash
-deactivate
-```
-
 ## Usage
 ### Syntax:
 ```bash
