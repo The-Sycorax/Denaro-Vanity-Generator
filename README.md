@@ -18,7 +18,7 @@
 
 
 ## Installation Guide
-*Note: This Denaro Vanity Generator has not been tested on Windows or MacOS and support is unknown at this time. It is reccomended to run it on Ubuntu/Debian Linux to avoid any compatibility or stability issues.*
+*Note: The Denaro Vanity Generator has not been tested on Windows or MacOS and support is unknown at this time. It is reccomended to run it on Ubuntu/Debian Linux to avoid any compatibility or stability issues.*
 
 ```bash
 # Clone the repository
